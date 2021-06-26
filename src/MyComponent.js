@@ -37,6 +37,7 @@ export class MyComponent extends LitElement {
 
   render() {
     return html`
+      <div>Breiner Correa Atucsa</div>
       <h2>${this.title} Nro. ${this.counter}!</h2>
       <button @click=${this.__increment}>increment</button>
     `;
